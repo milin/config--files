@@ -114,5 +114,5 @@ map <f4> :w\|!clear;gcc %<cr>
 
 " Add F5 hot key for running ./a.out
 map <f5> :w\|!clear;./a.out
-
+" ADD F6 hot key to save file opened using VIM that required root permissions
 map <f6> :w !sudo tee %
